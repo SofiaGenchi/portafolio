@@ -4,7 +4,7 @@ import AboutImg from '../../assets/about.jpg';
 import CV from '../../assets/sofiagenchi-cv.pdf';
 import Info from './Info';
 
-function About() {
+const About = () => {
   return (
     <section className="about section" id='about'>
         <h2 className="section__title">About Me</h2>
