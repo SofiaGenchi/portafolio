@@ -1,0 +1,116 @@
+.work__filters {
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.work__item {
+    cursor: pointer;
+    font-weight: var(--font-normal);
+    transition: .3s;
+}
+
+.work__item:hover {
+    color: var(--title-color-dark);
+}
+
+.work__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.work__card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+}
+
+.work__mask {
+    background: orange;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+
+.work__card:hover .work__mask {
+    opacity: 0.6;
+}
+
+.work__category {
+    color: #fff;
+    background-color: orangered;
+    border-bottom-left-radius: 0.98rem;
+    border-bottom-right-radius: 0.98rem;
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: 0.19rem 0.625rem;
+    transform: translateY(-40px);
+    transition: .3s;
+}
+
+.work__title {
+    color: black;
+    font-size: var(--h3-font-size);
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 3.75rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+}
+
+.work__button {
+    color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: orangered;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.work__button-code {
+    color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: orangered;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s;
+    opacity: 0;
+}
+
+
+.work__card:hover .work__button, .work__card:hover .work__button-code{
+    opacity: 1;
+}
+
+.work__card:hover .work__title, .work__card:hover .work__category {
+    opacity: 1;
+    transform: translateY(0);
+}
