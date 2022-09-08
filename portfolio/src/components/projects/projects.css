@@ -114,3 +114,17 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+@media screen and (max-width: 576px) {
+    .work__item {
+        font-size: small;
+    }
+
+    .work__container {
+        grid-template-columns: none;
+    }
+
+    .work__filters {
+        justify-content: center;
+    }
+}
