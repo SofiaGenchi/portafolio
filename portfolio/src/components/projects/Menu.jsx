@@ -15,20 +15,26 @@ const Menu = [
     {
         id: 2,
         image: Work2,
-        title: "QRcode",
-        category: "JavaScript"
+        title: "QRcode Generator",
+        category: "JavaScript",
+        link: 'https://sofiagenchi.github.io/QRcode/',
+        code: 'https://github.com/SofiaGenchi/QRcode'
     },
     {
         id: 3,
         image: Work3,
         title: "pokedex",
-        category: "JavaScript"
+        category: "JavaScript",
+        link: 'https://sofiagenchi.github.io/pokedex/',
+        code: 'https://github.com/SofiaGenchi/pokedex'
     },
     {
         id: 4,
         image: Work4,
         title: "BioVida",
-        category: "HTML"
+        category: "HTML",
+        link: 'https://tiendabiovida.000webhostapp.com/index.html',
+        code: 'https://github.com/SofiaGenchi/BioVida-Genchi'
     }
 ];
 

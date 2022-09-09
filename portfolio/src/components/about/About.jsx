@@ -17,7 +17,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatibus nesciunt dignissimos ipsam. Impedit, repellendus.
+                  I am a developer of websites as well as responsive web applications. I can detect errors in development and implement solutions. Library management. My skills are teamwork, good communication, trust, analytical skills and, above all, a sense of responsibility.
                 </p>
 
                 <a href={CV} download="" className="button button--flex">Download CV

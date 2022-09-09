@@ -55,8 +55,8 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className="home__subtitle">Developer React</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, reprehenderit amet! Quia iure sapiente ratione.</p>
+        <h3 className="home__subtitle">Developer Frontend React</h3>
+        <p className="home__description">I am 25 years old, I live in Buenos Aires - Argentina. I'm a Junior Frontend Developer.</p>
 
         <a href="#contact" className="button button-flex">
           Say Hello
