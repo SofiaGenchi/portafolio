@@ -20,7 +20,7 @@ const About = () => {
                   I am a developer of websites as well as responsive web applications. I can detect errors in development and implement solutions. Library management. My skills are teamwork, good communication, trust, analytical skills and, above all, a sense of responsibility.
                 </p>
 
-                <a href={CV} download="" className="button button--flex">Download CV
+                {/* <a href={CV} download="" className="button button--flex">Download CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
                 </svg>
-                </a>
+                </a> */}
             </div>
         </div>
     </section>
