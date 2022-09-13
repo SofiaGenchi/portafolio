@@ -6,9 +6,6 @@ import { useForm } from "@formspree/react";
 const Contact = () => {
   const [state, handleSubmit] = useForm("xrgdevpp");
   
-  function reset() {
-    document.getElementById('form').reset();
-  }
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
@@ -92,7 +89,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button onClick={reset()} type="submit" className="button button-flex">
+            <button type="submit" className="button button-flex">
               Send Message
               <svg
                 class="button__icon"

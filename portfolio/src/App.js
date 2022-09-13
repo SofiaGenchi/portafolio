@@ -19,7 +19,6 @@ function App() {
         <Projects />
         <Contact />
       </main>
-
       <Footer />
       <ScrollUp />
     </>
