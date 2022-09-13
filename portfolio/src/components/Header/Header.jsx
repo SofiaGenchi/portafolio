@@ -15,7 +15,7 @@ const Header = () => {
     })
 
     const [Toggle, showMenu] = useState(false);
-    const [activeNav, setActiveNav] = useState("#home");
+    // const [activeNav, setActiveNav] = useState("/");
 
     const navegar = useNavigate();
     return(
@@ -26,31 +26,31 @@ const Header = () => {
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
-                            <a onClick={() => navegar('/')} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
+                            <a onClick={() => navegar('/')} className="nav__link">
                                 <i className="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a onClick={() => navegar('/about')} className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}>
+                            <a onClick={() => navegar('/about')} className="nav__link">
                                 <i className="uil uil-user nav__icon"></i> About
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a onClick={() => navegar('/skills')} className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
+                            <a onClick={() => navegar('/skills')} className="nav__link">
                                 <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a onClick={() => navegar('/projects')} className={activeNav === "#projects" ? "nav__link active-link" : "nav__link"}>
+                            <a onClick={() => navegar('/projects')} className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Projects
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a onClick={() => navegar('/contact')} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
+                            <a onClick={() => navegar('/contact')} className="nav__link">
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>

@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./home.css";
 
 const Data = () => {
+  const navegar = useNavigate();
+
   return (
     <div className="home__data">
         <h1 className="home__title">Sofia Genchi
@@ -58,7 +61,7 @@ const Data = () => {
         <h3 className="home__subtitle">Developer Frontend React</h3>
         <p className="home__description">Hi, I am 25 years old, I am from Buenos Aires - Argentina and I'm a Frontend Developer. I invite you to get to know me a little more!</p>
 
-        <a href="#contact" className="button button-flex">
+        <a onClick={() => navegar('/contact')} className="button button-flex">
           Say Hello
           <svg
                   class="button__icon"
