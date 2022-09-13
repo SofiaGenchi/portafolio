@@ -1,10 +1,13 @@
 import React from "react";
 import "./contact.css";
 import { useForm } from "@formspree/react";
+import { useNavigate } from "react-router-dom";
 
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xrgdevpp");
+  
+  const navegar = useNavigate();
   
   return (
     <section className="contact section" id="contact">
@@ -89,7 +92,7 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button type="submit" className="button button-flex">
+            <button onClick={setTimeout(navegar('/'), 2000)} type="submit" className="button button-flex">
               Send Message
               <svg
                 class="button__icon"

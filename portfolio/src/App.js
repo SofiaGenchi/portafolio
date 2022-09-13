@@ -7,21 +7,22 @@ import Home from './components/home/Home';
 import Projects from './components/projects/Projects';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Skills from './components/skills/Skills';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
       <Footer />
       <ScrollUp />
-    </>
+    </BrowserRouter>
   );
 }
 
