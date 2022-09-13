@@ -61,7 +61,7 @@ const Data = () => {
         <h3 className="home__subtitle">Developer Frontend React</h3>
         <p className="home__description">Hi, I am 25 years old, I am from Buenos Aires - Argentina and I'm a Frontend Developer. I invite you to get to know me a little more!</p>
 
-        <a onClick={() => navegar('/contact')} className="button button-flex">
+        <a onClick={() => navegar('/about')} className="button button-flex">
           Say Hello
           <svg
                   class="button__icon"
