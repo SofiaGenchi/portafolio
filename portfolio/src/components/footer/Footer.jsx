@@ -12,11 +12,11 @@ const Footer = () => {
 
             <ul className="footer__list">
                 <li>
-                    <a onClick={() => navegar('/about')}  className="footer__link">About</a>
+                    <a onClick={() => navegar('/about')}  className="footer__link">Sobre Mi</a>
                 </li>
 
                 <li>
-                    <a onClick={() => navegar('/projects')}  className="footer__link">Projects</a>
+                    <a onClick={() => navegar('/projects')}  className="footer__link">Proyectos</a>
                 </li>
             </ul>
 

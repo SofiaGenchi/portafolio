@@ -12,11 +12,11 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <span className="section__subtitle">Contactame</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title">Hablame</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -31,7 +31,7 @@ const Contact = () => {
                 href="mailto:sofiagenchi.dev@gmail.com"
                 className="contact__button"
               >
-                Write me{" "}
+                Escribeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                 target={"_blank"}
                 className="contact__button"
               >
-                Write me{" "}
+                Escribeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -55,11 +55,11 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Escribeme tu idea de proyecto</h3>
 
           <form id="form" className="contact__form" onSubmit={handleSubmit}>
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">Nombre</label>
               <input
                 type="text"
                 name="name"
@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">Email</label>
               <input
                 type="email"
                 name="email"
@@ -81,7 +81,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Proyecto</label>
               <textarea
                 name="project"
                 cols="30"
@@ -93,7 +93,7 @@ const Contact = () => {
             </div>
 
             <button onClick={setTimeout(navegar('/'), 2000)} type="submit" className="button button-flex">
-              Send Message
+              Enviar Mensaje
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

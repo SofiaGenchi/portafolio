@@ -58,11 +58,11 @@ const Data = () => {
                   ></path>
                 </svg>
         </h1>
-        <h3 className="home__subtitle">Developer Frontend React</h3>
-        <p className="home__description">Hi, I am 25 years old, I am from Buenos Aires - Argentina and I'm a Frontend Developer. I invite you to get to know me a little more!</p>
+        <h3 className="home__subtitle">Desarrolladora Web FrontEnd ReactJs</h3>
+        <p className="home__description">Hola, soy Sofia de Buenos Aires - Argentina y soy Desarrolladora Web FrontEnd. Te invito a que me conozcas un poco mas!</p>
 
         <a onClick={() => navegar('/about')} className="button button-flex">
-          Say Hello
+          Contactame!
           <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

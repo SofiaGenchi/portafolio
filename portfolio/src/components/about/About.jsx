@@ -7,8 +7,8 @@ import Info from './Info';
 const About = () => {
   return (
     <section className="about section" id='about'>
-        <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">My introduction</span>
+        <h2 className="section__title">Sobre Mi</h2>
+        <span className="section__subtitle">Mi introduccion</span>
 
         <div className="about__container container grid">
             <img src={AboutImg} alt="" className='about__img' />
@@ -17,10 +17,10 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                  I am a developer of websites as well as responsive web applications. I can detect errors in development and implement solutions. Library management. My skills are teamwork, good communication, trust, analytical skills and, above all, a sense of responsibility.
+                Soy Desarrolladora de sitios web así, tanto para desktop como responsivas. Puedo detectar errores en el desarrollo e implementar soluciones. Gestión de bibliotecas. Mis habilidades son el trabajo en equipo, la buena comunicación, la confianza, la capacidad de análisis y, sobre todo, el sentido de la responsabilidad.
                 </p>
 
-                <a href={CV} download="" className="button button--flex">Download CV
+                <a href={CV} download="" className="button button--flex">Descargar CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

@@ -15,13 +15,13 @@ const Projects = () => {
 
   return (
     <section className="work container section" id='projects'>
-        <h2 className="section__title">Recent Works</h2>
+        <h2 className="section__title">Trabajos recientes</h2>
 
         <div className="work__filters">
-            <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
+            <span className="work__item" onClick={() => setItems(Menu)}>Todos</span>
             <span className="work__item" onClick={() => filterItem("React")}>React</span>
             <span className="work__item" onClick={() => filterItem("JavaScript")}>JavaScript</span>
-            <span className="work__item" onClick={() => filterItem("HTML")}>HTML</span>
+            <span className="work__item" onClick={() => filterItem("HTML")}>HTML5/CSS</span>
         </div>
 
         <div className="work__container grid">

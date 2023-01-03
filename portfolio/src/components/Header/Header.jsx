@@ -27,13 +27,13 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a onClick={() => navegar('/')} className="nav__link">
-                                <i className="uil uil-estate nav__icon"></i> Home
+                                <i className="uil uil-estate nav__icon"></i> Inicio
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a onClick={() => navegar('/about')} className="nav__link">
-                                <i className="uil uil-user nav__icon"></i> About
+                                <i className="uil uil-user nav__icon"></i> Sobre Mi
                             </a>
                         </li>
 
@@ -45,13 +45,13 @@ const Header = () => {
 
                         <li className="nav__item">
                             <a onClick={() => navegar('/projects')} className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i> Projects
+                                <i className="uil uil-scenery nav__icon"></i> Proyectos
                             </a>
                         </li>
 
                         <li className="nav__item">
                             <a onClick={() => navegar('/contact')} className="nav__link">
-                                <i className="uil uil-message nav__icon"></i> Contact
+                                <i className="uil uil-message nav__icon"></i> Contacto
                             </a>
                         </li>
                     </ul>
